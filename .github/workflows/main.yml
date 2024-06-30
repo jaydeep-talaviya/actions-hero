@@ -39,3 +39,5 @@ jobs:
           python3 --version
           echo is git installed?
           git --version
+          echo what is in my env?
+          env
