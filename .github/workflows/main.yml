@@ -36,3 +36,15 @@ jobs:
           echo created sh file
       - name: Run a single line script
         run: sh ./github_action_script.sh
+
+  test:
+     
+     runs-on: ubuntu-latest
+
+     steps:
+       - uses: actions/checkout@v4
+       - name: run python file
+         run: |
+           echo "Started to run Python"
+           python test.py
+           echo "finished testing"
