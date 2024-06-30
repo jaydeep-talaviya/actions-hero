@@ -35,4 +35,4 @@ jobs:
           echo Nothing multiline
           echo created sh file
       - name: Run a single line script
-        run: ./github_action_script.sh
+        run: sh ./github_action_script.sh
